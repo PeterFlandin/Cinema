@@ -12,12 +12,26 @@ h1{
 }
 
 ul {
+  
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
 a{
-  margin-left: 5vh;
+  border-radius: 10px;
+  width: 102px;
+  text-align: center;
+  margin-right: 5px;
+
+  &:visited {
+    color: $color-3;
+    list-style: none;
+  }
+
 }
+
+a.nav-active {
+  background: $color-2;  
+  }
 }
