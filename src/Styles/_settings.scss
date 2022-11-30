@@ -1,0 +1,19 @@
+$color-1: #212040;
+$color-2: #546fe4;
+$color-3: #f2e1c7;
+
+@mixin verticalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
