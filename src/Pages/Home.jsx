@@ -3,10 +3,12 @@ import Navigation from "../Components/Navigation";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import CardsMovie from "./CardsMovie";
+import Form from "../Components/Form";
+
 
 const Home = () => {
   const [film, setFilm] = useState([]);
-
+  
   console.log(film);
 
   const URL =
@@ -22,6 +24,7 @@ const Home = () => {
   return (
     <div>
       <Navigation />
+      <Form />
       <div className="result">
       {film.slice(0, 66).map((films) => (
         <CardsMovie films={films} />
