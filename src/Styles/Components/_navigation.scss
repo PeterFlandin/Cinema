@@ -25,6 +25,11 @@
     text-decoration: none;
     margin-left: 2px;
     font-size: 1.2rem;
+    transition: 0.2s;
+
+    &:hover {
+      color: $color-2;
+    }
 
 
     &:visited {
